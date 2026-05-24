@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Consultoria estratégica para negócios que querem vender mais, organizar processos e crescer com clareza." />
+  <title>Vértice Estratégia Digital</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,300..700,0..1,-50..200&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script defer src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="topo">
+    <a class="brand" href="#topo" aria-label="Voltar ao início">
+      <span class="brand-mark">V</span>
+      <span class="brand-text">Vértice</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Menu principal">
+      <a href="#planos">Planos</a>
+      <a href="#metodo">Método</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#pagamento">Pagamento</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Consultoria estratégica para negócios digitais</p>
+        <h1>Clareza para decidir, plano para executar e métricas para crescer.</h1>
+        <p class="hero-subtitle">
+          Diagnóstico objetivo, plano de ação e acompanhamento para transformar ideias soltas em decisões comerciais mais seguras.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#planos">Ver planos</a>
+          <a class="btn btn-secondary" href="#avaliacoes">Ver resultados</a>
+        </div>
+
+        <div class="trust-row" aria-label="Destaques da consultoria">
+          <div>
+            <strong>24h</strong>
+            <span>para retorno inicial</span>
+          </div>
+          <div>
+            <strong>1:1</strong>
+            <span>atendimento individual</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>plano prático</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-visual reveal" aria-label="Resumo visual do serviço">
+        <img
+          src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85"
+          alt="Equipe em reunião estratégica em escritório moderno"
+          loading="eager"
+        />
+        <div class="floating-card top-card">
+          <span class="material-symbols-rounded" aria-hidden="true">analytics</span>
+          <div>
+            <strong>Diagnóstico claro</strong>
+            <small>Prioridades, gargalos e próximos passos.</small>
+          </div>
+        </div>
+        <div class="floating-card bottom-card">
+          <span class="material-symbols-rounded" aria-hidden="true">verified</span>
+          <div>
+            <strong>Processo validado</strong>
+            <small>Estratégia simples, aplicável e mensurável.</small>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-shell section-intro reveal" id="planos">
+      <p class="eyebrow">Escolha o melhor formato</p>
+      <h2>Planos pensados para diferentes momentos do negócio.</h2>
+      <p>
+        A estrutura foi organizada para reduzir atrito: você escolhe o plano, realiza o pagamento via Pix e confirma o pedido com seu e-mail.
+      </p>
+    </section>
+
+    <section class="plans-grid section-shell" id="plansContainer" aria-live="polite"></section>
+
+    <section class="method section-shell" id="metodo">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Método de trabalho</p>
+        <h2>Design de decisão, execução e acompanhamento.</h2>
+        <p>
+          O processo foi desenhado para gerar confiança antes da compra e facilitar a percepção de valor durante toda a jornada.
+        </p>
+      </div>
+
+      <div class="method-grid">
+        <article class="method-card reveal">
+          <span class="material-symbols-rounded" aria-hidden="true">travel_explore</span>
+          <h3>Diagnóstico</h3>
+          <p>Mapeamos cenário, prioridades e oportunidades para evitar decisões baseadas em achismo.</p>
+        </article>
+        <article class="method-card reveal">
+          <span class="material-symbols-rounded" aria-hidden="true">route</span>
+          <h3>Plano de ação</h3>
+          <p>Organizamos tarefas, metas e prioridades em uma sequência simples para execução.</p>
+        </article>
+        <article class="method-card reveal">
+          <span class="material-symbols-rounded" aria-hidden="true">monitoring</span>
+          <h3>Métricas</h3>
+          <p>Definimos indicadores para acompanhar evolução, corrigir rota e proteger investimento.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="reviews section-shell" id="avaliacoes">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Avaliações</p>
+        <h2>Confiança construída com clareza e entrega.</h2>
+        <p>
+          Depoimentos simulados para compor a seção visual. Substitua por avaliações reais quando começar a captar feedbacks de clientes.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review-card reveal">
+          <div class="review-header">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80" alt="Foto de cliente" loading="lazy" />
+            <div>
+              <strong>Ana Martins</strong>
+              <span>Loja online</span>
+            </div>
+          </div>
+          <p>“A consultoria deixou claro o que deveria ser priorizado. Em uma semana já tínhamos um plano de melhoria para vendas e atendimento.”</p>
+        </article>
+
+        <article class="review-card reveal">
+          <div class="review-header">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&q=80" alt="Foto de cliente" loading="lazy" />
+            <div>
+              <strong>Rafael Costa</strong>
+              <span>Prestador de serviços</span>
+            </div>
+          </div>
+          <p>“O atendimento foi direto, sem enrolação. Saí da reunião com tarefas, metas e uma visão melhor sobre meu posicionamento.”</p>
+        </article>
+
+        <article class="review-card reveal">
+          <div class="review-header">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=160&q=80" alt="Foto de cliente" loading="lazy" />
+            <div>
+              <strong>Bianca Reis</strong>
+              <span>Negócio local</span>
+            </div>
+          </div>
+          <p>“A experiência transmitiu segurança. O plano final ficou simples de entender e fácil de aplicar na rotina do negócio.”</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="payment section-shell" id="pagamento">
+      <div class="pix-panel reveal" id="pixPanel" hidden>
+        <div class="pix-copy">
+          <p class="eyebrow">Pagamento seguro</p>
+          <h2>Finalize seu pedido via Pix.</h2>
+          <p id="selectedPlanText">Selecione um plano para gerar o QR Code de pagamento.</p>
+
+          <div class="payment-steps">
+            <div>
+              <span>01</span>
+              <p>Escaneie o QR Code ou copie a chave Pix.</p>
+            </div>
+            <div>
+              <span>02</span>
+              <p>Realize o pagamento no aplicativo do seu banco.</p>
+            </div>
+            <div>
+              <span>03</span>
+              <p>Informe seu e-mail para registrar a solicitação.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pix-card">
+          <div class="qr-wrapper" id="qrcodeContainer"></div>
+
+          <div class="pix-key-box">
+            <span>Chave Pix</span>
+            <strong id="pixKeyDisplay">211348b6-48a3-4a77-bcea-af0d4aa0ac1c</strong>
+            <button class="btn btn-dark" id="copyKeyBtn" type="button">
+              <span class="material-symbols-rounded" aria-hidden="true">content_copy</span>
+              Copiar chave
+            </button>
+          </div>
+
+          <div class="email-form">
+            <label for="clienteEmail">E-mail para confirmação</label>
+            <div class="email-input-group">
+              <input type="email" id="clienteEmail" placeholder="seunome@email.com" autocomplete="email" />
+              <button class="btn btn-primary" id="confirmarPagamentoBtn" type="button">Registrar pedido</button>
+            </div>
+            <p class="status-msg" id="statusMessage" role="status"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="empty-payment reveal" id="emptyPayment">
+        <span class="material-symbols-rounded" aria-hidden="true">lock</span>
+        <h2>O painel Pix aparece após selecionar um plano.</h2>
+        <p>Isso mantém a página limpa e direciona a atenção do cliente para uma decisão por vez.</p>
+        <a class="btn btn-secondary" href="#planos">Escolher plano</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Vértice Estratégia Digital</strong>
+      <p>Consultoria objetiva para crescimento, posicionamento e organização comercial.</p>
+    </div>
+    <button class="admin-link" id="adminLink" type="button">Acesso administrativo</button>
+  </footer>
+</body>
+</html>
